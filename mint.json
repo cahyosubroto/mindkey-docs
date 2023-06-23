@@ -23,11 +23,11 @@
   "tabs": [
     {
       "name": "Integration",
-      "url": "integration"
+      "pages": "integration"
     },
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "pages": "api-reference"
     }
   ],
   "navigation": [
