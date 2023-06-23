@@ -17,7 +17,7 @@ tags:
 - name: Job Agents
 - name: Candidates
 paths:
-  /{recruiting_root}/{recruiting_customer_id}/vacancies/detailed:
+  /{recruiting_customer_id}/vacancies/detailed:
     get:
       tags:
       - Basic
@@ -103,7 +103,7 @@ paths:
               schema:
                 type: string
               example:
-  /{recruiting_root}/{recruiting_customer_id}/vacancies/simple:
+  /{recruiting_customer_id}/vacancies/simple:
     get:
       tags:
       - Basic
@@ -129,7 +129,7 @@ paths:
           description: Successful response
           content:
             application/json: {}
-  /{recruiting_root}/{recruiting_customer_id}/vacancies/configuration/list:
+  /{recruiting_customer_id}/vacancies/configuration/list:
     get:
       tags:
       - Vacancy List
@@ -155,7 +155,7 @@ paths:
           description: Successful response
           content:
             application/json: {}
-  /{recruiting_root}/{recruiting_customer_id}/vacancies/Roti-1:
+  /{recruiting_customer_id}/vacancies/Roti-1:
     get:
       tags:
       - Vacancy Details
