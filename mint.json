@@ -22,6 +22,10 @@
   },
   "tabs": [
     {
+      "name": "Integration",
+      "url": "integration"
+    },
+    {
       "name": "API Reference",
       "url": "api-reference"
     }
