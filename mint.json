@@ -23,7 +23,7 @@
   "tabs": [
     {
       "name": "Integration",
-      "pages": "integration"
+      "pages": "integrationapi"
     },
     {
       "name": "API Reference",
